@@ -35,12 +35,12 @@ If a `CLAUDE.md` file exists in the project root (`$PWD/CLAUDE.md`), read it. Th
 
 Analyze the session transcript and produce a structured review with these sections:
 
-1. **Outcome**: Did the session achieve its goals? What's incomplete?
-2. **Failures**: What went wrong? Root causes?
+1. **Outcome**: In a single sentence, state if the session achieved its goals.
+2. **Failures**: If there were any failure, describe what went wrong and perform root cause analysis.
 3. **Patterns**: Any recurring issues or effective approaches?
-4. **Rule proposals**: Specific, actionable additions for CLAUDE.md. Format as exact text ready to append.
+4. **Rule proposals**: Specific, actionable additions for the project CLAUDE.md. Format as exact text ready to append.
 5. **Rule removals**: Specific CLAUDE.md rules that should be removed as they are not benefitting the success of the work being performed. Include rationale.
-6. **Skill gaps**: Anything that should become a reusable skill?
+6. **Gaps**: Anything that should become a reusable skill, command, sub-agent, or rule?
 
 **Step 5: Write the review**
 
